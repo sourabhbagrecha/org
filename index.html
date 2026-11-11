@@ -88,7 +88,7 @@
   .tagline b { color: var(--ink); font-weight: 400; font-style: italic; }
   @keyframes fade { to { opacity: 1; } }
 
-  .links { display: flex; gap: clamp(16px, 2.4vw, 36px); opacity: 0; animation: fade 1.2s .9s var(--ease) forwards; }
+  .links { display: flex; flex-wrap: wrap; gap: 4px clamp(16px, 2.4vw, 36px); opacity: 0; animation: fade 1.2s .9s var(--ease) forwards; }
   .links a {
     color: var(--ink); text-decoration: none; position: relative; padding: 4px 0;
   }
@@ -179,6 +179,7 @@
   <div class="bottom">
     <nav class="links" aria-label="Links">
       <a href="https://vasooli.sourabh.org" target="_blank" rel="noopener" class="project" title="Multiplayer online card game">Play Vasooli ↗</a>
+      <a href="https://ghoommates.sourabh.org" target="_blank" rel="noopener" class="project" title="AI trip planner">Let AI manage your next trip on GhoomMates ↗</a>
       <a href="https://www.linkedin.com/in/sourabhbagrecha" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/sourabhbagrecha" target="_blank" rel="noopener">GitHub</a>
       <a href="https://x.com/sourabhbagrecha" target="_blank" rel="noopener">X</a>
